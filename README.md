@@ -1,16 +1,20 @@
-# artest2
+# Flutter ARKit iOS application 
 
-A new Flutter project.
+This is a fast and sample Flutter augmented reality example tutorial. I tried to fixed the issues encourted. And you can find them in issues. Hope it will be useful for your work.
 
-## Getting Started
+## Result overview
+![IMG_9676](https://user-images.githubusercontent.com/99146042/179488179-dd8f8284-32ea-4ec5-9164-2c030ff4f063.PNG)
 
-This project is a starting point for a Flutter application.
+## Add the ARKit plugin
 
-A few resources to get you started if this is your first Flutter project:
+ARKit is the best plugin for iOS device, and I don't recommend you use the ar_flutter_plugin, which have a complicated configuration process. [Here](https://pub.dev/packages/arkit_plugin) is the tutorial to set up.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Xcode configuration
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Make sure uncomment the 'platform :ios, '9.0' in the iOS/podfile and replace the '9.0' with '13.0'
+
+## Run
+
+Run with 'Flutter run --release'
+
+
