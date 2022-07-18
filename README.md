@@ -3,7 +3,7 @@
 This is a fast and sample Flutter augmented reality example tutorial. I tried to fixed the issues encourted. And you can find them in issues. Hope it will be useful for your work.
 
 ## Result overview
-![IMG_9676](https://user-images.githubusercontent.com/99146042/179488179-dd8f8284-32ea-4ec5-9164-2c030ff4f063.PNG)
+![IMG_9676](https://user-images.githubusercontent.com/99146042/179488179-dd8f8284-32ea-4ec5-9164-2c030ff4f063.PNG) { width: 200px; }
 
 ## Add the ARKit plugin
 
